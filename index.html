@@ -10,11 +10,11 @@
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <title>Ristorante Con Fusion: About Us</title>
+    <title>Ristorante Con Fusion: Home</title>
 
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 
     <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
         <div class="container">
@@ -24,19 +24,23 @@
                 </span>
             </button>
             <a class="navbar-brand" href="#">
-               <img src="img/logo.png" height="30" width="41" alt="">
+                <img src="img/logo.png" height="30" width="41" alt="">
             </a>
             <div class="collapse navbar-collapse" id="Navbar">
 
-                <ul class="navbar-nav mr-auto" >
-                    <li class="nabvar-item active"> <a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span> Home</a></li>
-                    <li class="nabvar-item"> <a class="nav-link" href="/aboutus.html"><span class="fa fa-info fa-lg"></span> About</a></li>
-                    <li class="nabvar-item"> <a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Menu</a></li>
-                    <li class="nabvar-item"> <a class="nav-link" href="/contactus.html"><span class="fa fa-address-card" aria-hidden="true"></span> Contact</a></li>
-    
-                </ul> 
+                <ul class="navbar-nav mr-auto">
+                    <li class="nabvar-item active"> <a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span>
+                            Home</a></li>
+                    <li class="nabvar-item"> <a class="nav-link" href="/aboutus.html"><span
+                                class="fa fa-info fa-lg"></span> About</a></li>
+                    <li class="nabvar-item"> <a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span>
+                            Menu</a></li>
+                    <li class="nabvar-item"> <a class="nav-link" href="/contactus.html"><span class="fa fa-address-card"
+                                aria-hidden="true"></span> Contact</a></li>
+
+                </ul>
             </div>
-            
+
 
         </div>
 
@@ -47,10 +51,16 @@
             <div class="row row-header">
                 <div class="col-12 col-sm-6">
                     <h1>Ristorante con Fusion</h1>
-                    <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
+                    <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our
+                        lipsmacking creations will tickle your culinary senses!</p>
                 </div>
                 <div class="col-12 col-sm align-self-center">
                     <img src="img/logo.png" alt="logo" class="image-fluid">
+                </div>
+                <div class="col-12 col-sm align-self-center">
+                    <a style="text-decoration-style: none;" href="#reservation" class="btn pl-5 pr-5 bg-yellow"> 
+                        Reserve table
+                    </a>
                 </div>
             </div>
         </div>
@@ -58,33 +68,45 @@
 
 
     <div class="container">
+        
+
         <div class="row row-content align-items-center">
             <div class="col-12 col-sm-4 order-sm-last col-md-3">
                 <h3>Our Lipsmacking Culinary Creations</h3>
             </div>
             <div class="col col-sm order-sm-first col-md">
                 <div class="media">
-                    <img class="d-flex mr-3 img-thumbnail align-self-center"
-                            src="img/uthappizza.png" alt="Uthappizza">
+                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="img/uthappizza.png" alt="Uthappizza">
                     <div class="media-body">
-                        <h2 class="mt-0">Uthappizza</h2>
+                        <h2 class="mt-0">Uthappizza <span class="badge badge-danger">HOT</span> <span class="badge badge-pill badge-secondary">$4.99</span></h2>
+                                class="badge badge-pill badge-secondary">$4.99</span></h2>
                         <p class="d-none d-sm-block">A unique combination of Indian Uthappam (pancake) and
                             Italian pizza, topped with Cerignola olives, ripe vine
                             cherry tomatoes, Vidalia onion, Guntur chillies and
                             Buffalo Paneer.</p>
                     </div>
-                </div>    
+                </div>
             </div>
         </div>
 
 
         <div class="row row-content align-items-center">
-            <div class="col-12 col-sm-4 order-sm-last col-md-3">
+            <div class="col-12 col-sm-4  col-md-3">
                 <h3>This Month's Promotions</h3>
             </div>
-            <div class="col col-sm order-sm-first col-md">
-                <h2>Weekend Grand Buffet</h2>
-                <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+            <div class="col col-sm  col-md">
+                <div class="media">
+                    <img class="d-flex mr-3 img-thumbnail order-last align-self-center" src="img/buffet.png" alt="buffet">
+                    <div class="media-body">
+                        <h2 class="mt-0">Weekend Grand Buffet <span class="badge badge-danger">NEW</span></h2>
+                        <p class="d-none d-sm-block">Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers,
+                            six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just
+                            $19.99 per person </p>
+                    </div>
+                    
+                </div>
+                
+               
             </div>
         </div>
 
@@ -94,8 +116,8 @@
             </div>
             <div class="col col-sm order-sm-first col-md">
                 <div class="media">
-                    <img class="d-flex mr-3 img-thumbnail align-self-center"
-                            src="img/alberto.png" alt="Alberto Somayya">
+                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="img/alberto.png"
+                        alt="Alberto Somayya">
                     <div class="media-body">
                         <h2 class="mt-0">Alberto Somayya</h2>
                         <h4>Executive Chef</h4>
@@ -103,17 +125,99 @@
                             International experience having worked closely with
                             whos-who in the culinary world, he specializes in
                             creating mouthwatering Indo-Italian fusion experiences.
-                            </p>
+                        </p>
                     </div>
-                </div>    
+                </div>
             </div>
+        </div>
+        <div class="row row-content align-items-center" id="reservation">
+            <div class="col-md-8 offset-md-2 col-sm">
+                <div class="card">
+                    <h3 class="card-header bg-yellow text-white">Reserve a table</h3>
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group row align-items-center">
+                                <label for="numberOfGuests" class="col-md-3 col-form-label">
+                                    Number of guests
+                                </label>
+                                <div class="col">
+                                    <div class="custom-control custom-radio custom-control-inline">
+                                        <input type="radio" class="custom-control-input" id="oneGuest"
+                                            name="numberOfGuests">
+                                        <label class="custom-control-label" for="oneGuest">1</label>
+                                    </div>
+
+
+                                    <div class="custom-control custom-radio custom-control-inline">
+                                        <input type="radio" class="custom-control-input" id="twoGuests"
+                                            name="numberOfGuests">
+                                        <label class="custom-control-label" for="twoGuests">2</label>
+                                    </div>
+
+
+                                    <div class="custom-control custom-radio custom-control-inline">
+                                        <input type="radio" class="custom-control-input" id="threeGuests"
+                                            name="numberOfGuests">
+                                        <label class="custom-control-label" for="threeGuests">3</label>
+                                    </div>
+
+                                    <div class="custom-control custom-radio custom-control-inline">
+                                        <input type="radio" class="custom-control-input" id="fourGuests"
+                                            name="numberOfGuests">
+                                        <label class="custom-control-label" for="fourGuests">4</label>
+                                    </div>
+
+                                    <div class="custom-control custom-radio custom-control-inline">
+                                        <input type="radio" class="custom-control-input" id="fiveGuests"
+                                            name="numberOfGuests">
+                                        <label class="custom-control-label" for="fiveGuests">5</label>
+                                    </div>
+
+                                    <div class="custom-control custom-radio custom-control-inline">
+                                        <input type="radio" class="custom-control-input" id="sixGuests"
+                                            name="numberOfGuests">
+                                        <label class="custom-control-label" for="sixGuests">6</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group row mt-4">
+
+                                <label for="dateAndTime" class="col-md-3 col-form-label">
+                                    Date and Time
+                                </label>
+
+                                <div class="col-md-4 col-sm">
+                                    <input type="date" class="form-control" id="date" name="dateAndTime"
+                                        placeholder="Date">
+                                </div>
+
+                                <div class="col-md-4 col-sm">
+                                    <input type="time" class="form-control" id="time" name="dateAndTime"
+                                        placeholder="Time">
+                                </div>
+
+                            </div>
+
+
+                            <div class="form-group row mt-4">
+                                <div class="offset-md-3  col-md-10">
+                                    <button type="submit" class="btn btn-primary">
+                                        Reserve
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 
 
     <footer class="footer">
         <div class="container">
-            <div class="row">             
+            <div class="row">
                 <div class="col-4 offset-1 col-sm-2">
                     <h5>Links</h5>
                     <ul class="list-unstyled">
@@ -126,30 +230,37 @@
                 <div class="col-7 col-sm-5">
                     <h5>Our Address</h5>
                     <address>
-		              121, Clear Water Bay Road<br>
-		              Clear Water Bay, Kowloon<br>
-		              HONG KONG<br>
-		              <i class="fa fa-phone fa-lg" aria-hidden="true"></i>  : +852 1234 5678<br>
-		              <i class="fa fa-fax fa-lg" aria-hidden="true"></i> : +852 8765 4321<br>
-		              <i class="fa fa-envelope fa-lg" aria-hidden="true"></i> : <a href="mailto:confusion@food.net">confusion@food.net</a>
-		           </address>
+                        121, Clear Water Bay Road<br>
+                        Clear Water Bay, Kowloon<br>
+                        HONG KONG<br>
+                        <i class="fa fa-phone fa-lg" aria-hidden="true"></i> : +852 1234 5678<br>
+                        <i class="fa fa-fax fa-lg" aria-hidden="true"></i> : +852 8765 4321<br>
+                        <i class="fa fa-envelope fa-lg" aria-hidden="true"></i> : <a
+                            href="mailto:confusion@food.net">confusion@food.net</a>
+                    </address>
                 </div>
                 <div class="col-12 col-sm-4 align-self-center">
                     <div class="text-center">
-                        <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-google-plus fa-lg" aria-hidden="true"></i></a>
-                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a>
-                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a>
-                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a>
-                        <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube fa-lg" aria-hidden="true"></i></a>
-                        <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o fa-lg" aria-hidden="true"></i></a>
+                        <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i
+                                class="fa fa-google-plus fa-lg" aria-hidden="true"></i></a>
+                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i
+                                class="fa fa-facebook fa-lg" aria-hidden="true"></i></a>
+                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i
+                                class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a>
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i
+                                class="fa fa-twitter fa-lg" aria-hidden="true"></i></a>
+                        <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i
+                                class="fa fa-youtube fa-lg" aria-hidden="true"></i></a>
+                        <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o fa-lg"
+                                aria-hidden="true"></i></a>
                     </div>
                 </div>
-           </div>
-           <div class="row justify-content-center">             
+            </div>
+            <div class="row justify-content-center">
                 <div class="col-auto">
                     <p>© Copyright 2018 Ristorante Con Fusion</p>
                 </div>
-           </div>
+            </div>
         </div>
     </footer>
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
@@ -158,77 +269,3 @@
 </body>
 
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="container">
-    <div class="row row-content-aboutus align-items-center">
-        <div class="col">
-           <h3>This is home page</h3>
-          
-        </div>
-        <div class="col col-sm order-sm-first col-md">
-            <div class="media">
-                <img src="img/uthappizza.png" alt="" class="d-flex mr-3 img-thumbnail align-self-center">
-                <div class="media-body">
-                    <h2>Ristorante con Fusion <span class="badge badge-danger">HOT</span>  <span class="badge badge-pill badge-secondary">$4.99</span></h2>
-                    <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
-    
-                </div>
-            </div>
-
-        </div>
-    </div>
-
-    <div class="row row-content " >
-        <div class="col-12">
-            <h2>Our History</h2>
-            <p>Started in 2010, Ristorante con Fusion quickly established itself as a culinary icon par excellence in Hong Kong. With its unique brand of world fusion cuisine that can be found nowhere else, it enjoys patronage from the A-list clientele in Hong Kong.  Featuring four of the best three-star Michelin chefs in the world, you never know what will arrive on your plate the next time you visit us.</p>
-            <p>The restaurant traces its humble beginnings to <em>The Frying Pan</em>, a successful chain started by our CEO, Mr. Peter Pan, that featured for the first time the world's best cuisines in a pan.</p>
-        </div>
-        <div>
-        </div>
-    </div>
-
-
-    <div class="row">
-        <div class="col-12">
-            <h2>Corporate Leadership</h2>
-            <h3>Peter Pan <small>Chief Epicurious Officer</small></h3>
-        
-            <p class="d-none d-sm-block">Our CEO, Peter, credits his hardworking East Asian immigrant parents who undertook the arduous journey to the shores of America with the intention of giving their children the best future. His mother's wizardy in the kitchen whipping up the tastiest dishes with whatever is available inexpensively at the supermarket, was his first inspiration to create the fusion cuisines for which <em>The Frying Pan</em> became well known. He brings his zeal for fusion cuisines to this restaurant, pioneering cross-cultural culinary connections.</p>
-            <h3>Dhanasekaran Witherspoon <small>Chief Food Officer</small></h3>
-            <p class="d-none d-sm-block">Our CFO, Danny, as he is affectionately referred to by his colleagues, comes from a long established family tradition in farming and produce. His experiences growing up on a farm in the Australian outback gave him great appreciation for varieties of food sources. As he puts it in his own words, <em>Everything that runs, wins, and everything that stays, pays!</em></p>
-            <h3>Agumbe Tang <small>Chief Taste Officer</small></h3>
-            <p class="d-none d-sm-block">Blessed with the most discerning gustatory sense, Agumbe, our CTO, personally ensures that every dish that we serve meets his exacting tastes. Our chefs dread the tongue lashing that ensues if their dish does not meet his exacting standards. He lives by his motto, <em>You click only if you survive my lick.</em></p>
-            <h3>Alberto Somayya <small>Executive Chef</small></h3>
-            <p class="d-none d-sm-block">Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. He says, <em>Put together the cuisines from the two craziest cultures, and you get a winning hit! Amma Mia!</em></p>
-        </div>
-   </div>
-
-</div>
